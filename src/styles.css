@@ -2,3 +2,12 @@
   font-family: sans-serif;
   text-align: center;
 }
+.transcript {
+  font-size: 18px;
+  color: #838383;
+  text-align: left;
+}
+
+.word {
+  cursor: pointer;
+}
