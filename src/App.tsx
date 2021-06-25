@@ -9,8 +9,6 @@ export default function App() {
   const lines: word[] = JSON.parse(transcript);
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
       <AudioProvider>
         <AudioPlayer src="https://jfe93e.s3.amazonaws.com/1238498083/2714496762/s93290-US-774s-1620656598.mp3" />
         <ShowTranscript lines={lines} />
