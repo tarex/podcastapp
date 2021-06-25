@@ -1,4 +1,4 @@
-import React, { useRef, useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { AudioContext } from './AudioProvider';
 
 export interface word {

@@ -9,7 +9,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({ src }) => {
   const { seekTime, updateTime } = useContext(AudioContext);
 
   useEffect(() => {
-    if (audioRef.current && seekTime != 0) {
+    if (audioRef.current && seekTime !== 0) {
       audioRef.current.currentTime = seekTime;
       audioRef.current.play();
     }
